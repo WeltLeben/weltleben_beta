@@ -1,3 +1,10 @@
-import sqlite3
+# price = input('Enter the price ($):')
+# tax = input('Enter the tax rate (%):')
+# net_price = int(price) * int(tax) / 100
+# print(f'The net price is ${net_price}')
 
-connection = sqlite3.connect('mydata.db')
+# a	b	a and b
+# True	True	True
+# True	False	False
+# False	False	False
+# False	True	False
