@@ -3,6 +3,7 @@
 # net_price = int(price) * int(tax) / 100
 # print(f'The net price is ${net_price}')
 
+
 # a	b	a and b
 # True	True	True
 # True	False	False
@@ -29,12 +30,16 @@
 # a and b and c or d	means	((a and b) and c) or d
 # not a and b or c	means	((not a) and b) or c
 
+
+# IF ELSE
 # age = input('Enter your age: ')
 # if int(age) >= 18:
 #     print(f'You are {age} years old')
 # else:
 #     print(f'Your age {age} years old and you can not smoke')
 
+
+# IF ELIF ELSE
 # age = input('Enter your age: ')
 # # convert the string to int
 # your_age = int(age)
@@ -47,3 +52,27 @@
 #     ticket_price = 18
 # # show the ticket price
 # print(f" You'll pay ${ticket_price} for the ticket")
+
+
+# Ternary Operator
+# age = input('Enter your age: ')
+# ticket_price = 20 if int(age) >= 18 else 5
+# print(f"The ticket price is {ticket_price}")
+
+
+# FOR LOOP
+# range(start, stop, step)
+# for i in range(1, 6):
+#     print(i)
+
+# for i in range(0, 11, 2):
+#     print(i)
+
+# sum = 0
+# for num in range(101):
+#     sum += num
+# print(sum)
+
+# n = 100
+# sum = n * (n + 1) / 2
+# print(sum)
