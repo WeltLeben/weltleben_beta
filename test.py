@@ -76,3 +76,16 @@
 # n = 100
 # sum = n * (n + 1) / 2
 # print(sum)
+
+
+# WHILE
+# max = 5
+# counter = 0
+# while counter < max:
+#     counter += 1
+#     print(counter)
+
+# command = ''
+# while command.lower() != 'quit':
+#     command = input('>')
+#     print(f"Echo: {command}")
