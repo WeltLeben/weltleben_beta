@@ -89,3 +89,60 @@
 # while command.lower() != 'quit':
 #     command = input('>')
 #     print(f"Echo: {command}")
+
+
+# BREAK 
+# for i in range(0, 10):
+#     print(i)
+#     if i == 3:
+#         break
+
+# print('-- Help: type quit to exit --')
+# while True:
+#     color = input('Enter your favorite color: ')
+#     if color.lower() == 'quit':
+#         break
+
+
+# CONTINUE
+# for i in range(10):
+#     if i % 2:
+#         continue
+#     print(i)
+
+# counter = 0
+# while counter < 10:
+#     counter += 1
+#     if not counter % 2:
+#         continue
+#     print(counter)
+
+
+# PASS
+# c = 1
+# m = 10
+# if c <= m:
+#     c += 1
+# else:
+#     pass
+
+# FUNCTION
+# def sum(a, b):
+#     return a + b
+# total = sum(10, 20)
+# print(total)
+
+# def greet(name, message='Hi'):
+#     return f"{message} {name}"
+# greeting = greet('John')
+# print(greeting)
+
+# def greet(name, message="Hallo"):
+#     return f"{message} {name}"
+# greeting = greet('John', 'Hi')
+# print(greeting)
+
+# def greet(name='John', message='Hi'):
+#     return f"{message} {name}"
+# greeting = greet()
+# print(greeting)
