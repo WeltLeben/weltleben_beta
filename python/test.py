@@ -146,3 +146,70 @@
 #     return f"{message} {name}"
 # greeting = greet()
 # print(greeting)
+
+# def get_net_price(price, diskount):
+#     return price * (1 - diskount)
+# net_price = get_net_price(100, 0.1)
+# print(net_price)
+
+# def get_net_price(price, tax = 0.07, discount = 0.05):
+#     return price * (1 + tax - discount)
+# net_price = get_net_price(100)
+# print(net_price)
+
+# def count_down(start):
+#     print(start)
+#     next = start - 1
+#     if next > 0:
+#         count_down(next)
+# count_down(10)
+
+# def sum(n):
+#     if n > 0:
+#         return n + sum(n - 1)
+#     return 0
+# result = sum(100)
+# print(result)
+
+# LISTS
+# numbers = [1,2,3,4,5,6]
+# numbers.append(100)
+# print(numbers)
+
+# numbers = [1,2,3,4,5,6]
+# numbers.insert(0, 100)
+# print(numbers)
+
+# numbers = [1,2,3,4,5,6]
+# del numbers[2]
+# print(numbers)
+
+# numbers = [1,2,3,4,5,6]
+# last = numbers.pop(2)
+# print(last)
+# print(numbers)
+
+# numbers = [1,2,3,4,5,6]
+# numbers.remove(5)
+# print(numbers)
+
+# numbers = [1, 3, 2, 7, 9, 4]
+# numbers.clear()
+# print(numbers)
+
+# SORT LISTE
+# guests = ['James', 'Mary', 'John', 'Patricia', 'Robert', 'Jennifer']
+# guests.sort()
+# print(guests)
+
+# scores = [5, 7, 4, 6, 9, 8]
+# scores.sort(reverse=False)
+# print(scores)
+
+# companies = [('Google', 2019, 134.81),
+#              ('Apple', 2019, 260.2),
+#              ('Facebook', 2019, 70.7)]
+# # sort the companies by revenue
+# companies.sort(key=lambda company: company[2])
+# # show the sorted companies
+# print(companies)
