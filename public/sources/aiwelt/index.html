@@ -65,12 +65,14 @@
             side_bar_nav.classList.toggle('w-4/5');
             side_bar_nav.classList.toggle('hidden');
             side_bar_nav.classList.toggle('bg-white/70');
-            navbar_open_sm.classList.toggle('ml-[100%]')
+            navbar_open_sm.classList.toggle('ml-[72%]')
+            navbar_open_sm.classList.toggle('rotate-180')
         });
 
         let navbar_open_md = document.querySelector('#navbar_open_md');
         navbar_open_md.addEventListener('click', () => {
             side_bar_nav.classList.toggle('w-3/12');
+            navbar_open_md.classList.toggle('rotate-180')
         });
     </script>
 </body>
