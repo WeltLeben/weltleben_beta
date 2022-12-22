@@ -37,12 +37,16 @@
             </button>
         </div>
         <!-- Side bar Navigation -->
-        <div class="absolute fixed left-0 sm:flex flex-col items-center justify hidden w-10 py-1 h-full bg-white/40 shadow-sm rounded-r-md transition-all ease-in-out duration-500" id="side_bar_nav">
-            <button class="ml-[100%] pl-1 p-0.5 bg-white/70 hover:bg-white/90 rounded-full hidden sm:block transition ease-in-out duration-300" id="navbar_open_md">
-                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
-            </button>
-            <div class="overflow-hidden w-10 h-full" id="side_bar_nav_con">
-                <div class=""></div>
+        <div class="absolute fixed left-0 sm:flex flex-col items-center justify hidden w-14 h-full bg-white/40 shadow-sm rounded-r-md transition-all ease-in-out duration-500" id="side_bar_nav">
+            <div class="flex pt-1">
+                <button class="absolute ml-[70%] mt-1 pl-1 p-0.5 bg-white/70 hover:bg-white/90 rounded-full hidden sm:block transition ease-in-out duration-300" id="navbar_open_md">
+                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+                </button>
+                <div class="overflow-hidden w-full h-full" id="side_bar_nav_con">
+                    <div class="flex justify-center z-50 cursor-pointer rounded-md mx-auto h-11">
+                        <img class="rounded-md mx-auto h-11 w-11" src="./aiwelt-images/pexels-aboodi-vesakaran-13940761.jpg" alt="user img">
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Body Area -->
@@ -74,7 +78,8 @@
         let navbar_open_md = document.querySelector('#navbar_open_md');
         navbar_open_md.addEventListener('click', () => {
             side_bar_nav.classList.toggle('w-3/12');
-            navbar_open_md.classList.toggle('rotate-180')
+            navbar_open_md.classList.toggle('rotate-180');
+            navbar_open_md.classList.toggle('ml-[55%]');
         });
     </script>
 </body>
